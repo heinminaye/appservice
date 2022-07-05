@@ -3,10 +3,10 @@ name: Deploy ASP.NET CORE
 on:
   push:
     branches:
-      - master
+      - main
 
 env:
-  AZURE_WEBAPP_NAME: cw360
+  AZURE_WEBAPP_NAME: MrHunger
   AZURE_WEBAPP_PATH: "."
   DOTNET_VERSION: "6.0.201"
 
@@ -27,8 +27,9 @@ jobs:
           dotnet-version: ${{ env.DOTNET_VERSION }}
 
       - name: dotnet build + publish
-        run: | 
-        dotnet build --configuration release dotnet publish -c Release -o '${{ env.AZURE_WEBAPP_PATH }}/myapp'
+        run: |
+          dotnet build --configuration release
+          dotnet publish -c Release -o '${{ env.AZURE_WEBAPP_PATH }}/myapp'
 
       - name: Deploy to App Service
         uses: azure/webapps-deploy@v2

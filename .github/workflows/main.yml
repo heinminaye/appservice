@@ -26,9 +26,17 @@ jobs:
         with:
           dotnet-version: ${{ env.DOTNET_VERSION }}
 
-      - name: dotnet build + publish
+      - name: Build with dotnet
+        run: dotnet build --configuration Release
+      - name: dotnet publish
         run: |
-          dotnet build --configuration release dotnet publish -c Release -o '${{ env.AZURE_WEBAPP_PATH }}/app'
+          dotnet publish -c Release -o dotnetcorewebapp
+      - name: "Run Azure webapp deploy action using publish profile credentials"
+        uses: azure/webapps-deploy@v1
+        with:
+          app-name: dotnetcorewebapp19 # Replace with your app name
+          publish-profile: $ # Define secret variable in repository settings as per action documentation
+          package: "./dotnetcorewebapp"
 
       - name: Deploy to App Service
         uses: azure/webapps-deploy@v2

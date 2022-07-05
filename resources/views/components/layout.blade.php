@@ -54,38 +54,40 @@
                     </button>
                     @endauth
                     <div class="edit">
-                        <form action="/create" enctype="multipart/form-data" method="POST"
-                            class="edit-form contact-form">
-                            @csrf
-                            <div class="grid">
-                                <div class="grid-class">
-                                    <div class="contact-content">
-                                        <label for="" class="contact-label">Title</label>
-                                        <input type="text" value="{{ old('title') }}" name="title" class="contact-input"
-                                            required>
-                                    </div>
-                                    <div class="contact-inputs">
+                        <div class="edit-form contact-form">
+                            <img class="edit-close" src="/images/cross.svg" alt="">
+                            <form class="create-edit" action="/create" enctype="multipart/form-data" method="POST">
+                                @csrf
+                                <div class="grid">
+                                    <div class="grid-class">
                                         <div class="contact-content">
-                                            <label for="" class="contact-label">Category</label>
-                                            <select name="category_name" class="contact-input">
-                                                @foreach($categories as $category)
-                                                <option value="{{ $category->category_name }}">
-                                                    {{ $category->category_name }}
-                                                </option>
-                                                @endforeach
-                                            </select>
+                                            <label for="" class="contact-label">Title</label>
+                                            <input type="text" value="{{ old('title') }}" name="title"
+                                                class="contact-input" required>
+                                        </div>
+                                        <div class="contact-inputs">
+                                            <div class="contact-content">
+                                                <label for="" class="contact-label">Category</label>
+                                                <select name="category_name" class="contact-input">
+                                                    @foreach($categories as $category)
+                                                    <option value="{{ $category->category_name }}">
+                                                        {{ $category->category_name }}
+                                                    </option>
+                                                    @endforeach
+                                                </select>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="contact-content right-grid">
-                                    <label for="" class="contact-label">Description</label>
-                                    <textarea contenteditable="true" name="description" id="editor"
-                                        class="contact-input" name="description" required>
+                                    <div class="contact-content right-grid">
+                                        <label for="" class="contact-label">Description</label>
+                                        <textarea contenteditable="true" name="description" id="editor"
+                                            class="contact-input" name="description" required>
                                     </textarea>
+                                    </div>
                                 </div>
-                            </div>
-                            <input type="submit" value="Post" class="contact-button button"></input>
-                        </form>
+                                <input type="submit" value="Post" class="contact-button button"></input>
+                            </form>
+                        </div>
                     </div>
                     <div class="button-box">
                         <input name="check" type="checkbox" id="toggleTheme">
@@ -151,9 +153,11 @@
     <script>
     const addBtn = document.querySelector('.add-cat');
     const Add = document.querySelector('.edit');
+    const Edit = document.querySelector('.edit-close');
 
     addBtn.addEventListener('click', () => {
         Add.classList.add('show-add');
+        Edit.classList.add('edit-crossShow');
     })
     </script>
     <script src="https://cdn.ckeditor.com/ckeditor5/27.1.0/classic/ckeditor.js"></script>

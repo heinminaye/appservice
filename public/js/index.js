@@ -36,3 +36,10 @@ searchCross.addEventListener('click',()=>{
     searchBox.classList.remove('show-search');
     searchCross.classList.add('hide-cross');
 })
+
+const editCross = document.querySelector('.edit-close');
+const edit = document.querySelector('.edit');
+editCross.addEventListener('click',()=>{
+    edit.classList.remove('show-add');
+    editCross.classList.remove('edit-crossShow');
+})

@@ -315,9 +315,9 @@ body.dark {
     z-index: 100000;
 }
 
-.show-search{
-   visibility: visible;
-   opacity: 1;
+.search-form.show-search{
+    opacity: 1;
+    visibility: visible;
 }
 
 .footer {
@@ -496,7 +496,7 @@ iframe{
     padding: 1rem;
     margin: auto;
     border-radius: 10px;
-    z-index: 99;
+    position: relative;
 }
 .edit-form-one{
     max-height: 550px;
@@ -638,6 +638,26 @@ nav{
     cursor: default;
     background-color: brown;
 }
+.edit-close{
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    padding: .5rem;
+    background-color: rgba(255,255,255,.1);
+    display: flex;
+    float: right;
+}
+.edit-close:hover{
+    background-color: rgba(255,255,255,.2);
+}
+.create-edit{
+    margin-top: 2rem;
+}
+.edit-crossShow{
+    cursor: pointer;
+    opacity: 1;
+    visibility: visible;
+}
 
 @media screen and (max-width: 767px) {
     .dropdown-arrow{
@@ -713,6 +733,9 @@ nav{
     .edit-form{
         padding: .5rem;
         width: 95%;
+    }
+    .create-edit{
+        margin-top: 3rem;
     }
 }
 @media screen and (max-width: 562px){

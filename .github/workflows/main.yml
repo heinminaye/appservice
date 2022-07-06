@@ -44,6 +44,11 @@ jobs:
         with:
           ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
           ssh-known-hosts: ${{ secrets.SSH_KNOWN_HOSTS }}
+      - name: Setup Hugo
+          uses: peaceiris/actions-hugo@v2
+          with:
+            hugo-version: 'latest'
+            
       - name: Deploy to Production
         env:
           DOT_ENV: ${{ secrets.DOT_ENV_PRODUCTION }}

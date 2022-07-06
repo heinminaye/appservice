@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '423a9a6a359fbbe5ca7628f09f6bc3d7bdb33ceb',
+        'reference' => '275c7084b95b1f601956af2f7e3edfe345504d1b',
         'name' => 'laravel/laravel',
         'dev' => true,
     ),
@@ -39,6 +39,15 @@
             'replaced' => array(
                 0 => '*',
             ),
+        ),
+        'deployer/deployer' => array(
+            'pretty_version' => 'v7.0.0-rc.8',
+            'version' => '7.0.0.0-RC8',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../deployer/deployer',
+            'aliases' => array(),
+            'reference' => '629973ee3d0ce78953b18500cba0695feec28c2b',
+            'dev_requirement' => false,
         ),
         'dflydev/dot-access-data' => array(
             'pretty_version' => 'v3.0.1',
@@ -397,7 +406,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '423a9a6a359fbbe5ca7628f09f6bc3d7bdb33ceb',
+            'reference' => '275c7084b95b1f601956af2f7e3edfe345504d1b',
             'dev_requirement' => false,
         ),
         'laravel/sail' => array(

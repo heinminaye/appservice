@@ -115,6 +115,52 @@
             "install-path": "../ckeditor/ckeditor"
         },
         {
+            "name": "deployer/deployer",
+            "version": "v7.0.0-rc.8",
+            "version_normalized": "7.0.0.0-RC8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/deployphp/deployer.git",
+                "reference": "629973ee3d0ce78953b18500cba0695feec28c2b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/deployphp/deployer/zipball/629973ee3d0ce78953b18500cba0695feec28c2b",
+                "reference": "629973ee3d0ce78953b18500cba0695feec28c2b",
+                "shasum": ""
+            },
+            "time": "2022-03-22T14:33:06+00:00",
+            "bin": [
+                "deployer.phar"
+            ],
+            "type": "library",
+            "installation-source": "dist",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Anton Medvedev",
+                    "email": "anton@medv.io"
+                }
+            ],
+            "description": "Deployment Tool",
+            "homepage": "https://deployer.org",
+            "support": {
+                "docs": "https://deployer.org/docs",
+                "issues": "https://github.com/deployphp/deployer/issues",
+                "source": "https://github.com/deployphp/deployer"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/sponsors/antonmedv",
+                    "type": "github"
+                }
+            ],
+            "install-path": "../deployer/deployer"
+        },
+        {
             "name": "dflydev/dot-access-data",
             "version": "v3.0.1",
             "version_normalized": "3.0.1.0",

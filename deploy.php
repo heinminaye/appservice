@@ -45,7 +45,7 @@ task('deploy:secrets', function () {
 host('prod') // Name of the server
     ->setHostname(' ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOMqqnkVzrm0SdG6UOoqKLsabgH5C9okWi0dh2l9GKJl
     ') // Hostname or IP address
-    ->set('heinminaye', 'Service') // SSH user
+    ->set('heinminaye', 'root') // SSH user
     ->set('branch', 'master') // Git branch
     ->set('deploy_path', '/var/www/project-path'); // Deploy path
 

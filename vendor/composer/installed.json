@@ -6256,9 +6256,6 @@
             "console",
             "terminal"
         ],
-        "support": {
-            "source": "https://github.com/symfony/console/tree/v6.1.2"
-        },
         "funding": [
             {
                 "url": "https://symfony.com/sponsor",
@@ -6323,9 +6320,6 @@
         ],
         "description": "Converts CSS selectors to XPath expressions",
         "homepage": "https://symfony.com",
-        "support": {
-            "source": "https://github.com/symfony/css-selector/tree/v6.1.0"
-        },
         "funding": [
             {
                 "url": "https://symfony.com/sponsor",
@@ -6392,9 +6386,6 @@
         ],
         "description": "A generic function and convention to trigger deprecation notices",
         "homepage": "https://symfony.com",
-        "support": {
-            "source": "https://github.com/symfony/deprecation-contracts/tree/v3.1.1"
-        },
         "funding": [
             {
                 "url": "https://symfony.com/sponsor",
@@ -6465,9 +6456,6 @@
         ],
         "description": "Provides tools to manage errors and ease debugging PHP code",
         "homepage": "https://symfony.com",
-        "support": {
-            "source": "https://github.com/symfony/error-handler/tree/v6.1.0"
-        },
         "funding": [
             {
                 "url": "https://symfony.com/sponsor",
@@ -6550,9 +6538,6 @@
         ],
         "description": "Provides tools that allow your application components to communicate with each other by dispatching events and listening to them",
         "homepage": "https://symfony.com",
-        "support": {
-            "source": "https://github.com/symfony/event-dispatcher/tree/v6.1.0"
-        },
         "funding": [
             {
                 "url": "https://symfony.com/sponsor",
@@ -6631,9 +6616,6 @@
             "interoperability",
             "standards"
         ],
-        "support": {
-            "source": "https://github.com/symfony/event-dispatcher-contracts/tree/v3.1.1"
-        },
         "funding": [
             {
                 "url": "https://symfony.com/sponsor",
@@ -6697,9 +6679,6 @@
         ],
         "description": "Finds files and directories via an intuitive fluent interface",
         "homepage": "https://symfony.com",
-        "support": {
-            "source": "https://github.com/symfony/finder/tree/v6.1.0"
-        },
         "funding": [
             {
                 "url": "https://symfony.com/sponsor",
@@ -6771,9 +6750,6 @@
         ],
         "description": "Defines an object-oriented layer for the HTTP specification",
         "homepage": "https://symfony.com",
-        "support": {
-            "source": "https://github.com/symfony/http-foundation/tree/v6.1.2"
-        },
         "funding": [
             {
                 "url": "https://symfony.com/sponsor",
@@ -6883,9 +6859,6 @@
         ],
         "description": "Provides a structured process for converting a Request into a Response",
         "homepage": "https://symfony.com",
-        "support": {
-            "source": "https://github.com/symfony/http-kernel/tree/v6.1.2"
-        },
         "funding": [
             {
                 "url": "https://symfony.com/sponsor",
@@ -6959,9 +6932,6 @@
         ],
         "description": "Helps sending emails",
         "homepage": "https://symfony.com",
-        "support": {
-            "source": "https://github.com/symfony/mailer/tree/v6.1.2"
-        },
         "funding": [
             {
                 "url": "https://symfony.com/sponsor",
@@ -7042,9 +7012,6 @@
             "mime",
             "mime-type"
         ],
-        "support": {
-            "source": "https://github.com/symfony/mime/tree/v6.1.1"
-        },
         "funding": [
             {
                 "url": "https://symfony.com/sponsor",
@@ -7126,9 +7093,6 @@
             "polyfill",
             "portable"
         ],
-        "support": {
-            "source": "https://github.com/symfony/polyfill-ctype/tree/v1.26.0"
-        },
         "funding": [
             {
                 "url": "https://symfony.com/sponsor",
@@ -7209,9 +7173,6 @@
             "portable",
             "shim"
         ],
-        "support": {
-            "source": "https://github.com/symfony/polyfill-intl-grapheme/tree/v1.26.0"
-        },
         "funding": [
             {
                 "url": "https://symfony.com/sponsor",
@@ -7298,9 +7259,6 @@
             "portable",
             "shim"
         ],
-        "support": {
-            "source": "https://github.com/symfony/polyfill-intl-idn/tree/v1.26.0"
-        },
         "funding": [
             {
                 "url": "https://symfony.com/sponsor",
@@ -7384,9 +7342,6 @@
             "portable",
             "shim"
         ],
-        "support": {
-            "source": "https://github.com/symfony/polyfill-intl-normalizer/tree/v1.26.0"
-        },
         "funding": [
             {
                 "url": "https://symfony.com/sponsor",
@@ -7469,9 +7424,6 @@
             "portable",
             "shim"
         ],
-        "support": {
-            "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.26.0"
-        },
         "funding": [
             {
                 "url": "https://symfony.com/sponsor",
@@ -7547,9 +7499,6 @@
             "portable",
             "shim"
         ],
-        "support": {
-            "source": "https://github.com/symfony/polyfill-php72/tree/v1.26.0"
-        },
         "funding": [
             {
                 "url": "https://symfony.com/sponsor",
@@ -7632,9 +7581,6 @@
             "portable",
             "shim"
         ],
-        "support": {
-            "source": "https://github.com/symfony/polyfill-php80/tree/v1.26.0"
-        },
         "funding": [
             {
                 "url": "https://symfony.com/sponsor",
@@ -7713,9 +7659,6 @@
             "portable",
             "shim"
         ],
-        "support": {
-            "source": "https://github.com/symfony/polyfill-php81/tree/v1.26.0"
-        },
         "funding": [
             {
                 "url": "https://symfony.com/sponsor",
@@ -7776,9 +7719,6 @@
         ],
         "description": "Executes commands in sub-processes",
         "homepage": "https://symfony.com",
-        "support": {
-            "source": "https://github.com/symfony/process/tree/v6.1.0"
-        },
         "funding": [
             {
                 "url": "https://symfony.com/sponsor",
@@ -7866,9 +7806,6 @@
             "uri",
             "url"
         ],
-        "support": {
-            "source": "https://github.com/symfony/routing/tree/v6.1.1"
-        },
         "funding": [
             {
                 "url": "https://symfony.com/sponsor",
@@ -7953,9 +7890,6 @@
             "interoperability",
             "standards"
         ],
-        "support": {
-            "source": "https://github.com/symfony/service-contracts/tree/v3.1.1"
-        },
         "funding": [
             {
                 "url": "https://symfony.com/sponsor",
@@ -8040,9 +7974,6 @@
             "utf-8",
             "utf8"
         ],
-        "support": {
-            "source": "https://github.com/symfony/string/tree/v6.1.2"
-        },
         "funding": [
             {
                 "url": "https://symfony.com/sponsor",
@@ -8138,9 +8069,6 @@
         ],
         "description": "Provides tools to internationalize your application",
         "homepage": "https://symfony.com",
-        "support": {
-            "source": "https://github.com/symfony/translation/tree/v6.1.0"
-        },
         "funding": [
             {
                 "url": "https://symfony.com/sponsor",
@@ -8221,9 +8149,6 @@
             "interoperability",
             "standards"
         ],
-        "support": {
-            "source": "https://github.com/symfony/translation-contracts/tree/v3.1.1"
-        },
         "funding": [
             {
                 "url": "https://symfony.com/sponsor",
@@ -8311,9 +8236,6 @@
             "debug",
             "dump"
         ],
-        "support": {
-            "source": "https://github.com/symfony/var-dumper/tree/v6.1.0"
-        },
         "funding": [
             {
                 "url": "https://symfony.com/sponsor",

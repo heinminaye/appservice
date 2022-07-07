@@ -103,13 +103,7 @@
             "richtext",
             "text",
             "wysiwyg"
-        ],
-        "support": {
-            "forum": "https://stackoverflow.com/tags/ckeditor",
-            "issues": "https://github.com/ckeditor/ckeditor4/issues",
-            "source": "https://github.com/ckeditor/ckeditor4",
-            "wiki": "https://ckeditor.com/docs/ckeditor4/latest/"
-        }
+        ]
     },
     {
         "name": "deployer/deployer",
@@ -144,11 +138,6 @@
         ],
         "description": "Deployment Tool",
         "homepage": "https://deployer.org",
-        "support": {
-            "docs": "https://deployer.org/docs",
-            "issues": "https://github.com/deployphp/deployer/issues",
-            "source": "https://github.com/deployphp/deployer"
-        },
         "funding": [
             {
                 "url": "https://github.com/sponsors/antonmedv",
@@ -1396,10 +1385,6 @@
             "thumbnail",
             "watermark"
         ],
-        "support": {
-            "issues": "https://github.com/Intervention/image/issues",
-            "source": "https://github.com/Intervention/image/tree/2.7.2"
-        },
         "funding": [
             {
                 "url": "https://paypal.me/interventionio",
@@ -2197,11 +2182,7 @@
             "league",
             "manipulation",
             "processing"
-        ],
-        "support": {
-            "issues": "https://github.com/thephpleague/glide/issues",
-            "source": "https://github.com/thephpleague/glide/tree/2.2.2"
-        }
+        ]
     },
     {
         "name": "league/mime-type-detection",
@@ -2325,10 +2306,6 @@
             "stream",
             "zip"
         ],
-        "support": {
-            "issues": "https://github.com/maennchen/ZipStream-PHP/issues",
-            "source": "https://github.com/maennchen/ZipStream-PHP/tree/2.2.1"
-        },
         "funding": [
             {
                 "url": "https://opencollective.com/zipstream",
@@ -2624,10 +2601,6 @@
         "keywords": [
             "enum"
         ],
-        "support": {
-            "issues": "https://github.com/myclabs/php-enum/issues",
-            "source": "https://github.com/myclabs/php-enum/tree/1.8.3"
-        },
         "funding": [
             {
                 "url": "https://github.com/mnapoli",
@@ -4277,17 +4250,17 @@
     },
     {
         "name": "psy/psysh",
-        "version": "v0.11.6",
-        "version_normalized": "0.11.6.0",
+        "version": "v0.11.7",
+        "version_normalized": "0.11.7.0",
         "source": {
             "type": "git",
             "url": "https://github.com/bobthecow/psysh.git",
-            "reference": "3f5b5f8aaa979fbd0d1783173f4c82ad529fe621"
+            "reference": "77fc7270031fbc28f9a7bea31385da5c4855cb7a"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/bobthecow/psysh/zipball/3f5b5f8aaa979fbd0d1783173f4c82ad529fe621",
-            "reference": "3f5b5f8aaa979fbd0d1783173f4c82ad529fe621",
+            "url": "https://api.github.com/repos/bobthecow/psysh/zipball/77fc7270031fbc28f9a7bea31385da5c4855cb7a",
+            "reference": "77fc7270031fbc28f9a7bea31385da5c4855cb7a",
             "shasum": ""
         },
         "require": {
@@ -4310,7 +4283,7 @@
             "ext-posix": "If you have PCNTL, you'll want the POSIX extension as well.",
             "ext-readline": "Enables support for arrow-key history navigation, and showing and manipulating command history."
         },
-        "time": "2022-07-03T16:40:23+00:00",
+        "time": "2022-07-07T13:49:11+00:00",
         "bin": [
             "bin/psysh"
         ],
@@ -4347,11 +4320,7 @@
             "console",
             "interactive",
             "shell"
-        ],
-        "support": {
-            "issues": "https://github.com/bobthecow/psysh/issues",
-            "source": "https://github.com/bobthecow/psysh/tree/v0.11.6"
-        }
+        ]
     },
     {
         "name": "ralouphie/getallheaders",
@@ -5840,10 +5809,6 @@
             "image",
             "spatie"
         ],
-        "support": {
-            "issues": "https://github.com/spatie/image/issues",
-            "source": "https://github.com/spatie/image/tree/2.2.3"
-        },
         "funding": [
             {
                 "url": "https://spatie.be/open-source/support-us",
@@ -5905,11 +5870,7 @@
         "keywords": [
             "image-optimizer",
             "spatie"
-        ],
-        "support": {
-            "issues": "https://github.com/spatie/image-optimizer/issues",
-            "source": "https://github.com/spatie/image-optimizer/tree/1.6.2"
-        }
+        ]
     },
     {
         "name": "spatie/laravel-ignition",
@@ -6098,10 +6059,6 @@
             "media",
             "spatie"
         ],
-        "support": {
-            "issues": "https://github.com/spatie/laravel-medialibrary/issues",
-            "source": "https://github.com/spatie/laravel-medialibrary/tree/10.4.1"
-        },
         "funding": [
             {
                 "url": "https://spatie.be/open-source/support-us",
@@ -6161,10 +6118,6 @@
             "spatie",
             "temporary-directory"
         ],
-        "support": {
-            "issues": "https://github.com/spatie/temporary-directory/issues",
-            "source": "https://github.com/spatie/temporary-directory/tree/2.1.0"
-        },
         "funding": [
             {
                 "url": "https://spatie.be/open-source/support-us",

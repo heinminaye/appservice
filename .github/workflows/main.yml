@@ -1,5 +1,7 @@
 name: Deploy
 
+# Trigger the workflow on push and
+# pull request events on the production branch
 on:
   push:
     branches:
@@ -8,6 +10,8 @@ on:
     branches:
       - master
 
+# Authenticate to the the server via ssh
+# and run our deployment script
 jobs:
   deploy:
     runs-on: ubuntu-latest

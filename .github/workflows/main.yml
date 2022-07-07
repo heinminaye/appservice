@@ -50,7 +50,7 @@
 #           DOT_ENV: ${{ secrets.DOT_ENV_PRODUCTION }}
 #         run: php vendor/deployer/deployer/deployer.phar deploy prod --branch="master" -vv
 
-eploy:
+deploy:
   runs-on: ubuntu-latest
 
   steps:

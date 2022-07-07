@@ -39,7 +39,7 @@
     "scripts": {
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
-            "'Illuminate\\Log\\LogServiceProvider",
+            "Illuminate\\Log\\LogServiceProvider::class",
             "@php artisan package:discover --ansi"
         ],
         "post-update-cmd": [

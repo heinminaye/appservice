@@ -54,7 +54,7 @@ class Conversion
 
     public function getPerformOnCollections(): array
     {
-        if (!count($this->performOnCollections)) {
+        if (! count($this->performOnCollections)) {
             return ['default'];
         }
 
@@ -106,7 +106,7 @@ class Conversion
 
     public function __call($name, $arguments)
     {
-        if (!method_exists($this->manipulations, $name)) {
+        if (! method_exists($this->manipulations, $name)) {
             throw new BadMethodCallException("Manipulation `{$name}` does not exist");
         }
 
@@ -149,7 +149,7 @@ class Conversion
     public function shouldBePerformedOn(string $collectionName): bool
     {
         //if no collections were specified, perform conversion on all collections
-        if (!count($this->performOnCollections)) {
+        if (! count($this->performOnCollections)) {
             return true;
         }
 

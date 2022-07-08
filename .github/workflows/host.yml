@@ -6,7 +6,7 @@ on:
       - master
 
 env:
-  AZURE_WEBAPP_NAME: cw360
+  AZURE_WEBAPP_NAME: LabelMM
   AZURE_WEBAPP_PATH: "."
   DOTNET_VERSION: "6.0.201"
 

@@ -181,7 +181,7 @@ class Application extends Container implements ApplicationContract, CachesConfig
     }
 
     /**
-     * Get the version number of the application.
+     * Get the versqion number of the application.
      *
      * @return string
      */
@@ -221,7 +221,6 @@ class Application extends Container implements ApplicationContract, CachesConfig
     protected function registerBaseServiceProviders()
     {
         $this->register(new EventServiceProvider($this));
-        $this->register(new LogServiceProvider($this));
         $this->register(new RoutingServiceProvider($this));
     }
 

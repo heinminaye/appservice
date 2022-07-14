@@ -9,6 +9,7 @@ use Illuminate\Contracts\Foundation\CachesRoutes;
 use Illuminate\Contracts\Support\DeferrableProvider;
 use Illuminate\Database\Eloquent\Factory as ModelFactory;
 use Illuminate\View\Compilers\BladeCompiler;
+use Illuminate\Log;
 
 abstract class ServiceProvider
 {
@@ -65,7 +66,9 @@ abstract class ServiceProvider
      */
     public function register()
     {
-        //
+        $this->app->singleton('log', function ($app) {
+            return new LogManager($app);
+        });
     }
 
     /**
